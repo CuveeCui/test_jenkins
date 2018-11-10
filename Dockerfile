@@ -8,4 +8,4 @@ WORKDIR ${PROJECT_PATH}
 
 RUN npm install --registry=https://registry.npm.taobao.org
 
-CMD ['npm','start']
+CMD node app.js
