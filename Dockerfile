@@ -8,6 +8,4 @@ WORKDIR ${PROJECT_PATH}
 
 RUN npm install --registry=https://registry.npm.taobao.org
 
-EXPOSE 6021
-
-CMD ['npm', 'start']
+CMD ['npm','start']
